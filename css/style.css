@@ -86,3 +86,26 @@ h1 {
 .select {
     border-bottom: 2px solid #1600db;
 }
+
+
+/* JUMBO 2 */
+
+.jumbo2 {
+    background-image: url("../img/it-takes-two-hero-banner-desktop.jpg");
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+/*new game*/
+
+.bg-newgame {
+    background-color: #1F1F1F;
+    color: #fff;
+}
+
+.newgame img {
+    width: 100%;
+    border-radius: 25px;
+}
