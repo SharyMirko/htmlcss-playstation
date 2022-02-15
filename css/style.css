@@ -120,3 +120,22 @@ h1 {
     width: 250px;
     padding-bottom: 3rem;
 }
+
+/*ps now*/
+
+.blue-bg {
+    background-color: #161C3B;
+    color: #fff;
+}
+
+/* footer */
+
+footer {
+    background-color: #00439C;
+    font-size: 10px;
+    color: #fff;
+}
+
+.sie img {
+    width: 100px;
+}
