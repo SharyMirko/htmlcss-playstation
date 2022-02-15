@@ -4,6 +4,10 @@
     padding-top: 6rem!important;
 }
 
+h1 {
+    color: white;
+}
+
 /* HEADER */
 
 .blackhead {
@@ -35,12 +39,10 @@
 
 .jumbo {
     background-image: url("../img/jumbo-bg.png");
-    background-position: center;
-    background-size: contain;
-}
-
-.jumbotxt {
-    padding-top: 300px;
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
 }
 
 .jumbotxt img {
