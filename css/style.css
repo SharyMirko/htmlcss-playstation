@@ -1,0 +1,51 @@
+/* General */
+
+.pt-6 {
+    padding-top: 6rem!important;
+}
+
+/* HEADER */
+
+.blackhead {
+    background-color: black;
+}
+
+.blackhead img {
+    width: 75px;
+}
+
+.search {
+    background-color: transparent;
+    border: none;
+}
+
+.search:hover,
+.search:focus,
+.search:active {
+    background-color: transparent;
+    box-shadow: none;
+}
+
+.search img {
+    width: 30px;
+}
+
+
+/* JUMBO */
+
+.jumbo {
+    background-image: url("../img/jumbo-bg.png");
+    background-position: center;
+    background-size: contain;
+}
+
+.jumbotxt {
+    padding-top: 300px;
+}
+
+.jumbotxt img {
+    width: 15em;
+}
+
+
+
