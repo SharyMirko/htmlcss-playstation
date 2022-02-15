@@ -1,5 +1,11 @@
 /* General */
 
+.btn-red {
+    color: #fff;
+    background-color: #db0000;
+    border-color: #db0000;
+}
+
 .pt-6 {
     padding-top: 6rem!important;
 }
