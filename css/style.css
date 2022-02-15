@@ -6,6 +6,13 @@
     border-color: #db0000;
 }
 
+.btn-blu {
+    color: #fff;
+    background-color: #1600db;
+    border-color: #1600db;
+    font-weight: bold;
+}
+
 .pt-6 {
     padding-top: 6rem!important;
 }
@@ -60,5 +67,22 @@ h1 {
     width: 15em;
 }
 
+/* sezione bianca */
 
+.white {
+    color: black;
+}
 
+.titolo_blu {
+    color: blue;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.play5 img {
+    width: 80%;
+}
+
+.select {
+    border-bottom: 2px solid #1600db;
+}
