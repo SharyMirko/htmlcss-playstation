@@ -3,6 +3,13 @@
     list-style-type: disc;
 }
 
+.dropdown-item:focus, .dropdown-item:hover {
+    color: #1e2125;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 1px 1px 20px;
+}
+
 ul li::marker {
     color: #00439C;
 }
