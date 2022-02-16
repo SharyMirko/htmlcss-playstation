@@ -96,8 +96,6 @@ h1 {
 
 .jumbo2 {
     background-image: url("../img/it-takes-two-hero-banner-desktop.jpg");
-    background-position: top;
-    background-size: cover;
     background-repeat: no-repeat;
     color: white;
 }
@@ -133,6 +131,15 @@ h1 {
 footer {
     background-color: #00439C;
     font-size: 12px;
+    color: #fff;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer a:hover {
     color: #fff;
 }
 
@@ -177,7 +184,11 @@ footer {
 
 .opacityselect-active {
     border-bottom: 2px solid #00439C;
-    opacity: .8;
+    opacity: 1;
+}
+
+.opacityselect img {
+    opacity: .6;
 }
 
 .opacityselect:hover {
@@ -185,5 +196,5 @@ footer {
 }
 
 .opacityselect:hover img {
-    opacity: .5;
+    opacity: 1;
 }
