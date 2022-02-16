@@ -121,6 +121,10 @@ h1 {
     color: #fff;
 }
 
+.newgame:hover {
+    transform: scale(1.1);
+}
+
 .newgame img {
     width: 100%;
     border-radius: 25px;
