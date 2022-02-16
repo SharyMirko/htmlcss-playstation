@@ -139,3 +139,51 @@ footer {
 .sie img {
     width: 100px;
 }
+
+.cabron {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background-image: url("../img/chevron-down-solid.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.nav-link:hover .cabron {
+    background-image: url("../img/chevron-down-solid-hover.svg");
+}
+
+.show .cabron {
+    background-image: url("../img/chevron-down-solid-hover.svg");
+    transform: rotate(180deg);
+}
+
+.salta:hover {
+    animation: saltasalta 4s ease infinite;
+}
+
+
+@keyframes saltasalta {
+	0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0);
+    }
+	40% {
+        transform: translateY(-30px);
+    }
+	60% {
+        transform: translateY(-15px);
+    }
+}
+
+.opacityselect-active {
+    border-bottom: 2px solid #00439C;
+    opacity: .8;
+}
+
+.opacityselect:hover {
+    border-bottom: 2px solid #00439C;
+}
+
+.opacityselect:hover img {
+    opacity: .5;
+}
