@@ -3,6 +3,32 @@
     list-style-type: disc;
 }
 
+.btn:focus {
+    box-shadow: none;
+}
+
+.btn-red:hover {
+    color: #fff;
+    box-shadow: inset 0 0 0px black, inset 0 0 0 3px black;
+}
+
+.btn-dark:hover {
+    box-shadow: inset 0 0 0px black, inset 0 0 0 2px white;
+}
+
+.btn-blu:hover {
+    color: #fff;
+    box-shadow: inset 0 0 0px black, inset 0 0 0 2px white;
+}
+
+.btn-grey:hover {
+    box-shadow: inset 0 0 0px black, inset 0 0 0 2px #BEBCBB;
+}
+
+.btn-grey-blu:hover {
+    box-shadow: inset 0 0 0px black, inset 0 0 0 2px #161C3B;
+}
+
 .dropdown-item:focus, .dropdown-item:hover {
     color: #1e2125;
     background-color: white;
