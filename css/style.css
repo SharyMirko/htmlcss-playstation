@@ -1,4 +1,11 @@
 /* General */
+.discoblu li {
+    list-style-type: disc;
+}
+
+ul li::marker {
+    color: #00439C;
+}
 
 .btn-red {
     color: #fff;
@@ -142,6 +149,7 @@ footer a {
 footer a:hover {
     color: #fff;
 }
+
 
 .sie img {
     width: 100px;
