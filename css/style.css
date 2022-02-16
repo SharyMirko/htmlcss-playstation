@@ -243,3 +243,21 @@ footer a:hover {
 .opacityselect:hover img {
     opacity: 1;
 }
+
+/*sezione lol */
+
+.abe:hover  {
+    display: none;
+}
+
+.abexbox {
+    height: 450px;
+    background-image: url("../img/ps-now-april-featured-image-block.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.abexbox:hover {
+    background-image: url("../img/abexbox.png");
+}
